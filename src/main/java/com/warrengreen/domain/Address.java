@@ -61,4 +61,12 @@ public class Address {
 		this.owner = owner;
 	}
 
+	@Override
+	public String toString() {
+		return "Address [id=" + id + ", doorNumber=" + doorNumber + ", streetName=" + streetName + ", postcode="
+				+ postcode + ", owner=" + owner + "]";
+	}
+	
+	
+
 }
